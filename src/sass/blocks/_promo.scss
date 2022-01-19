@@ -1,7 +1,7 @@
 .promo{
     min-height: 650px;
     padding: 21px 0 93px 0;
-    background: url(../../img/bg/bg_1.jpg)center (center/cover) no-repeat;
+    background: url(../img/bg/bg_1.jpg)center (center/cover) no-repeat;
     &__wrapper{
         display:flex;
         flex-direction: column;
@@ -34,11 +34,14 @@
          text-align: center;
          color: #fff;
          font-size: 14px;
-         font-weight:500  ;
+         font-weight:500 ;
          img{
              display: block;
              margin-bottom:20px ;
              margin: 0 auto;
+         }
+         p{
+             margin-top: 20px;
          }
     }
     &__link{
@@ -52,4 +55,7 @@
            text-decoration: underline; 
         }
     }
+    
+        
+    
 }
