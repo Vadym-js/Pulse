@@ -34,4 +34,25 @@
             text-decoration: underline;
         }
     }
+    @media (max-width: 771px){
+        padding: 30px 0 40px 0;
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-top: 35px;
+        }
+        &__item{
+            max-width: 300px ;
+            align-items: center;
+            margin: 0 auto;
+            // max-height: 300px;
+
+        }
+        &__descr{
+            margin-top: 10px;
+        }
+        &__subtitle{
+            margin-top: 10px;
+        }
+    }
 }

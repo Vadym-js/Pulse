@@ -6,6 +6,7 @@
     max-width: 950px;
     margin: 0 auto;
 }
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -13,3 +14,9 @@
 @import 'blocks/consultation';
 @import 'blocks/titles';
 @import 'blocks/forms';
+@import 'blocks/media';
+@media (max-width:970px){
+    .container{
+        margin: 0 30px 0 30px;
+    }
+}

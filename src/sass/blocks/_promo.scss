@@ -14,6 +14,10 @@
         text-transform: uppercase;
         font-size: 42px;
         line-height: 42px;
+        @media (max-width:650px){
+             display: block;
+            
+         } 
     }
     &__subheader{
         margin-top: 17px;
@@ -55,7 +59,5 @@
            text-decoration: underline; 
         }
     }
-    
-        
-    
+      
 }
